@@ -101,8 +101,8 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
             Stack(alignment: AlignmentDirectional.bottomStart, children: [
-              SvgPicture.asset('vectors/Vector2.svg', width: 412.0),
-              SvgPicture.asset('vectors/Vector1.svg', width: 412.0)
+              SvgPicture.asset('vectors/Vector2.svg', width: 430.0),
+              SvgPicture.asset('vectors/Vector1.svg', width: 430.0)
             ]),
           ],
         ),

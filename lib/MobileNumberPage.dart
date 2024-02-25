@@ -181,8 +181,8 @@ class _MobileNumberPageState extends State<MobileNumberPage> {
             Stack(
               alignment: AlignmentDirectional.bottomStart,
               children: [
-                SvgPicture.asset('vectors/Vector4.svg', width: 412.0),
-                SvgPicture.asset('vectors/Vector3.svg', width: 412.0),
+                SvgPicture.asset('vectors/Vector4.svg', width: 430.0),
+                SvgPicture.asset('vectors/Vector3.svg', width: 430.0),
               ],
             ),
           ],

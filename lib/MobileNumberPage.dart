@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:pin_input_text_field/pin_input_text_field.dart';
 import 'package:sms_autofill/sms_autofill.dart';
 import 'ProfileSelectionPage.dart';
 
@@ -250,7 +249,7 @@ class _MobileNumberPageState extends State<MobileNumberPage> {
                               Colors.black, // Provide a valid color here
                               Colors.black,
                             ),
-                            textStyle: const TextStyle(fontSize: 20.0),
+                            textStyle: const TextStyle(fontSize: 20.0,color: Colors.black),
                           ),
                           controller: TextEditingController(text: smsCode),
                           onChanged: (pin) {
